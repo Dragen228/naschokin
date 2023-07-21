@@ -1,0 +1,12 @@
+{
+ "name": "Премиальный сок",
+ "short_name": "Премиальный ",
+ "start_url": "https://dragen228.github.io/naschokin",
+ "description": "",
+ "display": "standalone",
+ "orientation": "any",
+ "theme_color": "#ffff00",
+ "background_color": "#ffffff",
+ "icons": [],
+ "scope": "https://dragen228.github.io/naschokin"
+}
