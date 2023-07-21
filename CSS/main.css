@@ -1,0 +1,41 @@
+    body {
+ background-color: #000
+}
+body {
+    padding: 0;
+    font-family: arial;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #FFD700;
+    padding: 5px;
+}
+
+.item {
+    background: #5E1DA7;
+    font-size: 15px;
+    color: #fff;
+    margin: 5px;
+    padding: 15px;
+    flex-wrap: wrap;
+    border-radius: 3px;
+    border: none;
+    font-style: normal;
+    line-height: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.rightpic {
+    float: right; /
+    margin: 0 0 5px 5px; 
+}
+
+.lefttpic {
+    float: left; 
+    margin: 0 0 5px 5px; 
+}
+
