@@ -7,6 +7,13 @@
  "orientation": "any",
  "theme_color": "#ffff00",
  "background_color": "#ffffff",
- "icons": [],
+ "icons": [
+   {
+     "src": "img/da.png",
+     "sizes": "96x96",
+     "type": "image\/png",
+     "density": "4.0"
+   }
+ ],
  "scope": "https://dragen228.github.io/naschokin"
 }
