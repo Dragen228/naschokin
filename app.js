@@ -1,9 +1,10 @@
-if (navigator.serviceWorker.controller) {
-console.log('[PWA Builder] active service worker found, no need to register')
-} else {
-navigator.serviceWorker.register('/sw.js', {
-scope: 'https://dragen228.github.io/naschokin'
-}).then(function(reg) {
-console.log('Service worker has been registered for scope:'+ reg.scope);
-});
-}
+window.addEventListener('load', async () => {
+    if ('serviceWorker' in navigator) {
+        try {
+            const reg = await navigator.serviceWorker.register('sw.js')
+            console.log('Service worker register success', reg)
+        } catch (e) {
+            console.log('Service worker register fail')
+        }
+    }
+})
